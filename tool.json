@@ -1,0 +1,57 @@
+{
+    "initialTools": [
+        {
+            "type": "function",
+            "name": "getDialogChunks",
+            "description": "Get dialog chunks for a specific query",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "The query to get dialog chunks for"
+                    }
+                },
+                "required": [
+                    "query"
+                ]
+            }
+        }
+    ],
+    "helperTools": [
+        {
+            "type": "function",
+            "name": "executeWeather",
+            "description": "Get weather information for a specific city",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "city": {
+                        "type": "string",
+                        "description": "The city name to get weather for"
+                    }
+                },
+                "required": [
+                    "city"
+                ]
+            }
+        },
+        {
+            "type": "function",
+            "name": "executeInput",
+            "description": "Execute the identified intent",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "intent": {
+                        "type": "string",
+                        "description": "The identified intent to execute"
+                    }
+                },
+                "required": [
+                    "intent"
+                ]
+            }
+        }
+    ]
+}
