@@ -59,9 +59,17 @@ Create `config.json`:
 
 ---
 
+
 ## 💬 Examples
 
 * "What's the weather in Tokyo?" → `executeWeather`
 * "Show product options" → `getDialogChunks` → `executeInput`
+
+---
+
+## 🔗 References
+
+* [OpenAI Real-time WebSocket Guide](https://platform.openai.com/docs/guides/realtime#connect-with-websockets)
+* [OpenAI Real-time Client Events](https://platform.openai.com/docs/api-reference/realtime-client-events)
 
 ---
